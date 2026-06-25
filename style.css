@@ -363,61 +363,6 @@ footer {
     color: #94a3b8;
 }
 
-@media (max-width: 768px) {
-
-    nav {
-
-        flex-direction: column;
-
-        gap: 20px;
-
-        padding: 20px;
-
-        max-height: 70px;
-
-        overflow: hidden;
-
-        transition: .4s;
-    }
-
-    nav.open {
-
-        max-height: 400px;
-    }
-
-    .menu-toggle {
-
-        display: block;
-    }
-
-    .card {
-        width: 85%;
-    }
-
-    .projects {
-        width: 100%;
-    }
-
-    .about {
-        width: 90%;
-    }
-
-    .about-content {
-
-        flex-direction: column;
-    }
-
-    .about-text p {
-
-        text-align: center;
-    }
-
-    .about-stats {
-
-        width: 100%;
-    }
-
-}
 
 .socials {
     margin-top: 20px;
@@ -1257,34 +1202,57 @@ footer span {
     visibility: hidden;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
 
     body {
         overflow-x: hidden;
     }
 
+    nav {
+
+        gap: 12px;
+
+        padding: 15px 10px;
+
+        flex-wrap: wrap;
+    }
+
+    nav a {
+
+        font-size: .9rem;
+    }
+
     .container {
-        padding: 140px 15px 50px;
+
+        padding: 180px 15px 40px;
     }
 
     .card {
-        width: calc(100% - 30px);
-        padding: 30px 20px;
+
+        width: 100%;
+
+        max-width: 320px;
+
+        padding: 25px 20px;
     }
 
     h1 {
-        font-size: 2.2rem;
+
+        font-size: 2rem;
     }
 
-    h2 {
-        font-size: 1.3rem;
+    .card h2 {
+
+        font-size: 1.1rem;
     }
 
     .card p {
+
         font-size: .95rem;
     }
 
     #hero-3d canvas {
+
         width: 140px !important;
         height: 140px !important;
     }
@@ -1293,40 +1261,81 @@ footer span {
     .skills-section,
     .projects,
     .contact-section {
-        width: calc(100% - 30px);
+
+        width: 100%;
+
+        box-sizing: border-box;
+    }
+
+    .about {
+
         padding: 25px 15px;
     }
 
-    .skills-grid,
-    .project-container {
-        grid-template-columns: 1fr;
-    }
+    .about-content {
 
-    .skill-card,
-    .project-card {
-        padding: 25px 20px;
-    }
-
-    .featured-project {
-        padding: 25px 20px;
+        flex-direction: column;
     }
 
     .about-stats {
+
         flex-direction: column;
-        gap: 15px;
+
+        margin-top: 30px;
     }
 
     .stat-card {
+
         width: 100%;
+    }
+
+    .skills-grid {
+
+        grid-template-columns: 1fr;
+    }
+
+    .project-container {
+
+        flex-direction: column;
+
+        align-items: center;
+    }
+
+    .project-card {
+
+        width: 100%;
+
+        max-width: 300px;
+    }
+
+    .featured-project {
+
+        padding: 25px 15px;
+    }
+
+    .featured-tech {
+
+        justify-content: center;
+
+        flex-wrap: wrap;
+    }
+
+    .contact-section {
+
+        padding: 30px 15px;
     }
 
     .contact-form input,
     .contact-form textarea {
+
         width: 100%;
+
+        box-sizing: border-box;
     }
 
-    .socials a {
-        font-size: 1.6rem;
+    footer {
+
+        padding: 20px 10px;
     }
 
 }
