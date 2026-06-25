@@ -1256,3 +1256,77 @@ footer span {
 
     visibility: hidden;
 }
+
+@media (max-width: 768px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .container {
+        padding: 140px 15px 50px;
+    }
+
+    .card {
+        width: calc(100% - 30px);
+        padding: 30px 20px;
+    }
+
+    h1 {
+        font-size: 2.2rem;
+    }
+
+    h2 {
+        font-size: 1.3rem;
+    }
+
+    .card p {
+        font-size: .95rem;
+    }
+
+    #hero-3d canvas {
+        width: 140px !important;
+        height: 140px !important;
+    }
+
+    .about,
+    .skills-section,
+    .projects,
+    .contact-section {
+        width: calc(100% - 30px);
+        padding: 25px 15px;
+    }
+
+    .skills-grid,
+    .project-container {
+        grid-template-columns: 1fr;
+    }
+
+    .skill-card,
+    .project-card {
+        padding: 25px 20px;
+    }
+
+    .featured-project {
+        padding: 25px 20px;
+    }
+
+    .about-stats {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .stat-card {
+        width: 100%;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        width: 100%;
+    }
+
+    .socials a {
+        font-size: 1.6rem;
+    }
+
+}
