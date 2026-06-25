@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+    content="Personal portfolio website of Javad, Computer Engineering Student, C++ Developer and AI Enthusiast.">
+
+    <meta name="keywords"
+    content="Javad, Portfolio, C++, Linux, AI, GitHub, Developer">
+
+    <meta name="author"
+    content="Javad">
+
+    <meta property="og:title"
+    content="Javad | Personal Portfolio">
+
+    <meta property="og:description"
+    content="Computer Engineering Student, C++ Developer and AI Enthusiast.">
+
+    <meta property="og:type"
+    content="website">
+
+    <meta property="og:image"
+    content="assets/preview.png">
+
+    <meta property="og:locale"
+    content="fa_IR">
+
+    <title>Javad | Personal Website</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Vazirmatn:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="loader">
+
+        <h1>Javad</h1>
+
+        <span>Loading...</span>
+
+    </div>
+    
+    <div id="progress-bar"></div>
+
+    <canvas id="particles"></canvas>
+
+    <div class="cursor-glow"></div>
+
+    <div class="container">
+
+        <nav dir="rtl">
+            <div class="menu-toggle">
+
+                <i class="fas fa-bars"></i>
+
+            </div>
+            <a href="#home">خانه</a>
+            <a href="#about">درباره من</a>
+            <a href="#skills">مهارت‌ها</a>
+            <a href="#projects">پروژه‌ها</a>
+            <a href="#contact-form">تماس</a>
+        </nav>
+
+
+        <div class="card" id="home">
+
+           <!-- <img src="images/o5ntlq.jpg" alt="Profile Picture"> --> 
+
+            <div id="hero-3d"></div>
+
+            <h1>javad</h1>
+
+            <h2>Computer Engineering Student</h2>
+
+            <p>
+                C++ Programmer
+            </p>
+
+            <div class="skills">
+                <span>C++</span>
+                <span>Linux</span>
+                <span>AI</span>
+                <span>Git</span>
+            </div>
+
+            <div class="socials">
+
+                <a href="https://github.com/javadykazemlo" target="_blank">
+                    GitHub
+                </a>
+    
+                <a href="https://t.me/Javadikaz" target="_blank">
+                    Telegram
+                </a>
+
+            </div>
+
+            <a href="files/Javad_Resume.pdf"
+            download
+            class="resume-btn">
+
+                <i class="fas fa-file-download"></i>
+                دانلود رزومه
+
+            </a>
+
+            <a href="#contact-form" class="contact-btn">
+                تماس با من
+            </a>
+
+        </div>
+
+        <section class="about" id="about" dir="rtl">
+
+            <h2>درباره من</h2>
+
+            <div class="about-content">
+
+                <div class="about-text">
+
+                    <p>
+                        من جواد هستم، دانشجوی مهندسی کامپیوتر و علاقه‌مند
+                        به توسعه نرم‌افزار، برنامه‌نویسی C++ و فناوری‌های
+                        هوش مصنوعی.
+                    </p>
+
+                    <p>
+                        تمرکز اصلی من بر طراحی نرم‌افزار، توسعه پروژه‌های
+                        دانشگاهی و یادگیری فناوری‌های جدید است.
+                        همچنین به Linux، Git و کار تیمی علاقه زیادی دارم.
+                    </p>
+
+                </div>
+
+                <div class="about-stats">
+
+                    <div class="stat-card">
+                        <h3>3+</h3>
+                        <span>Projects</span>
+                    </div>
+
+                    <div class="stat-card">
+                        <h3>C++</h3>
+                        <span>Developer</span>
+                    </div>
+
+                    <div class="stat-card">
+                        <h3>AI</h3>
+                        <span>Enthusiast</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        
+        <section class="skills-section" id="skills"  dir="rtl">
+
+          <h2 class="section-title">مهارت‌های من</h2>
+
+            <div class="skills-grid">
+
+                <div class="skill-card reveal">
+                    <h3>C++</h3>
+                    <p>توسعه نرم‌افزار، برنامه‌نویسی شی‌گرا و ساخت پروژه‌های دانشگاهی</p>
+                </div>
+
+                <div class="skill-card reveal">
+                    <h3>Linux</h3>
+                    <p>کار با Ubuntu، ترمینال، Git و ابزارهای توسعه</p>
+                </div>
+
+                <div class="skill-card reveal">
+                    <h3>Artificial Intelligence</h3>
+                    <p>علاقه‌مند به یادگیری و کار با فناوری‌های هوش مصنوعی</p>
+                </div>
+
+                <div class="skill-card reveal">
+                    <h3>Git & GitHub</h3>
+                    <p>مدیریت نسخه، کار تیمی و مدیریت پروژه‌ها</p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section class="projects" id="projects" dir="rtl" >
+
+            <h2 class="section-title">پروژه‌های من</h2>
+
+            <div class="featured-project">
+
+                <div class="featured-content">
+
+                    <span class="featured-badge">
+                        Featured Project
+                    </span>
+
+                    <h3>Unmatched Game</h3>
+
+                    <p>
+                        پیاده‌سازی بازی رومیزی Unmatched با زبان ++C
+                        با استفاده از مفاهیمی مانند برنامه‌نویسی شی‌گرا،
+                        مدیریت نوبت‌ها، طراحی کلاس‌ها و معماری نرم‌افزار.
+                    </p>
+
+                    <div class="featured-tech">
+
+                        <span>C++</span>
+                        <span>OOP</span>
+                        <span>Git</span>
+
+                    </div>
+
+                    <a href="https://github.com/javadykazemlo/UNMATCHED"
+                    target="_blank"
+                    class="featured-link">
+
+                        <i class="fab fa-github"></i>
+                        مشاهده پروژه
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="project-container">
+
+                <div class="project-card reveal">
+
+                    <h3>battleship</h3>
+                    <p>پیاده سازی بازی battleship به زبان c++</p>
+                    <a href="https://github.com/javadykazemlo/battleship"
+                        target="_blank"
+                        class="project-link">
+
+                            <i class="fab fa-github"></i>
+                            مشاهده در GitHub
+                    </a>
+
+                </div>
+
+                <div class="project-card reveal">
+
+                    <h3>seied khande</h3>
+                    <p>پیاده سازی بازی سید خوانده به کمک برنامه نویسی به زبان c++</p>
+                    <a href="https://github.com/mahdidehnavi/seied_khande"
+                        target="_blank"
+                        class="project-link">
+
+                            <i class="fab fa-github"></i>
+                            مشاهده در GitHub
+                    </a>
+
+                </div>
+
+                <div class="project-card reveal">
+
+                    <h3>Hospital</h3>
+                    <p>پیاده سازی سیستم ساده بیمارستانی</p>
+                    <a href="https://github.com/javadykazemlo/hospital_project"
+                        target="_blank"
+                        class="project-link">
+
+                            <i class="fab fa-github"></i>
+                            مشاهده در GitHub
+                    </a>
+                    
+                </div>
+
+            </div>
+            
+        </section>
+        
+    </div>
+
+
+    <section class="contact-section reveal" id="contact-form">
+
+        <h2 class="section-title">تماس با من</h2>
+
+        <form class="contact-form" action="https://formspree.io/f/xwvdlrla" method="POST">
+
+            <input
+                type="text"
+                name="name"
+                placeholder="نام شما"
+                required>
+
+            <input
+                type="email"
+                name="email"
+                placeholder="ایمیل شما"
+                required>
+
+            <textarea
+                name="message"
+                rows="6"
+                placeholder="پیام خود را بنویسید..."
+                required></textarea>
+
+            <button type="submit">
+                ارسال پیام
+            </button>
+
+        </form>
+
+    </section>
+
+    <footer>
+
+        <div class="footer-socials">
+
+            <a href="https://github.com/javadykazemlo"
+            target="_blank">
+
+                <i class="fab fa-github"></i>
+
+            </a>
+
+            <a href="https://t.me/Javadikaz"
+            target="_blank">
+
+                <i class="fab fa-telegram"></i>
+
+            </a>
+
+        </div>
+
+        <p>
+            © 2026 Javad. All Rights Reserved.
+        </p>
+
+        <span>
+            Built with HTML, CSS & JavaScript
+        </span>
+
+    </footer>
+
+    <button id="backToTop">
+
+        <i class="fas fa-arrow-up"></i>
+
+    </button>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
